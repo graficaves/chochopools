@@ -1,0 +1,41 @@
+========================================
+INSTRUCCIONES PARA DESPLEGAR A GITHUB
+========================================
+
+PASO 1: Crear el repositorio en GitHub
+---------------------------------------
+1. Ve a: https://github.com/new
+2. Repository name: chochopools-new
+3. Description: Modern redesign of Chocho Pools website
+4. Selecciona: PUBLIC
+5. NO marques "Add a README file"
+6. Click "Create repository"
+
+PASO 2: Copiar el nombre de tu usuario de GitHub
+-------------------------------------------------
+Una vez creado el repo, GitHub te mostrará tu usuario en la URL.
+Ejemplo: https://github.com/TU_USUARIO/chochopools-new
+
+PASO 3: Ejecutar estos comandos en la terminal
+-----------------------------------------------
+cd "c:\Paginas Web\Chochonew"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/chochopools-new.git
+git push -u origin main
+
+(Reemplaza TU_USUARIO con tu usuario real de GitHub)
+
+PASO 4: Activar GitHub Pages
+-----------------------------
+1. En tu repositorio de GitHub, click en "Settings"
+2. En el menú izquierdo, click en "Pages"
+3. En "Source" selecciona "Deploy from a branch"
+4. En "Branch" selecciona "main" y carpeta "/ (root)"
+5. Click en "Save"
+
+¡Espera 1-2 minutos y tu sitio estará listo!
+
+URL FINAL:
+https://TU_USUARIO.github.io/chochopools-new/
+
+========================================

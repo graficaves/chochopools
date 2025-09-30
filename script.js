@@ -248,11 +248,11 @@ const galleryImages = [
         title: 'Pool Renovation - Complete Transformation'
     },
     {
-        src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80',
+        src: 'pool-construction.jpg',
         title: 'New Construction - Custom Pool Design'
     },
     {
-        src: 'https://images.unsplash.com/photo-1622015663319-e97e697503ee?w=800&q=80',
+        src: 'pool-cleaning.jpg',
         title: 'Deep Cleaning - Professional Service'
     }
 ];
