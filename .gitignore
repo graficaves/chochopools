@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Development files
+scraper.js
+original-site.html
+site-analysis.json
+screenshot.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
